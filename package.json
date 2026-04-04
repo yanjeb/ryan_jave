@@ -4,9 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "deploy": "ng build --configuration production --base-href https://yanjeb.github.io/ryan_jave/ && npx angular-cli-ghpages --dir=dist/ryanprot/browser"
-},
+    "deploy": "ng build --configuration production --base-href https://yanjeb.github.io/ryan_jave/ && npx angular-cli-ghpages --dir=dist/ryanprot/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ryanprot": "node dist/ryanprot/server/server.mjs"
